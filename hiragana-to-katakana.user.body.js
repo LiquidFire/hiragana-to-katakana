@@ -1,7 +1,7 @@
 function hiraganaToKatakana(text) {
-  for (var i = 0; i < text.length; i++) {
-    text[i] = hiraganaToKatakanaMap[text[i]] || text[i]
-  }
+  return text.replace(/./gm, function(c) {
+    return hiraganaToKatakanaMap[c] || c;
+  });
 }
 
 function replaceText(node) {
