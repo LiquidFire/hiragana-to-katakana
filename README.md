@@ -11,7 +11,7 @@ I created this to help me get more practice reading katakana.
 ## Usage
 
 The user script is available at:
-<http://code.lfire.net/user-scripts/hiragana-to-katakana.user.js>
+<https://lfire.net/user-scripts/hiragana-to-katakana.user.js>
 
 When installed, it will automatically replace all hiragana on every page you
 visit with the equivalent katakana. To disable it, simply disable the user
